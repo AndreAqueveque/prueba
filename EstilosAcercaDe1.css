@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 .contenedor{
-    background: brown;
+    background:rgb(255, 255, 255);
     display: flex;
 }
 
     .menu{
-        background: aqua;
+        background:rgb(255, 255, 255);
         display: flex;
         flex-flow: column nowrap;
+        box-sizing: border-box;
+        border: 2px solid rgb(12, 12, 12);
     }
         .nav-enlace{
-            background:blueviolet;
-            color: #fff;
+            background:rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             padding: 10px 30px;
             display: inline-block;
         }
@@ -25,41 +27,41 @@
  
 
 .padre{
-background: blue;
+background:rgb(255, 255, 255);
 display: flex;
 flex-flow: column nowrap;
 }
 
 .header{
-    background: red;
+    background:rgb(255, 255, 255);
 }
 .inicio-pag{
-    background: #2d4059;
+    background:rgb(255, 255, 255);
     display: flex;
     flex-flow: row nowrap;
 }
 .logo{
-    background: #ea5455;
+    background:rgb(255, 255, 255);
     flex: 1,5 1 auto;
     }
 .texto{
-    background: #ea5455;
+    background:rgb(255, 255, 255);
     flex: 8 1 auto;
 }
 
 .nosotros{
-    background: darkkhaki;
+    background:rgb(255, 255, 255);
     
 }
     .textos-1{
-        background: rgb(20, 220, 37);
+        background:rgb(255, 255, 255);
     }
         .textos-2{
-            background: rgb(63, 1, 13);
+            background:rgb(255, 255, 255);
             display: flex;
         }
         .textos-3{
-            background: crimson;
+            background:rgb(255, 255, 255);
 
             flex-flow: row nowrap;
             flex: 1 1 auto;
@@ -79,10 +81,12 @@ flex-flow: column nowrap;
 
         
 .section{
-    background: aliceblue;
+    background:rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 2px solid rgb(12, 12, 12);
 }
 .footer{
-    background: aliceblue;
+    background:rgb(255, 255, 255);
 }
 
 
@@ -107,5 +111,8 @@ flex-flow: column nowrap;
     .nav-boton{
         display: inline-block;
     }
+    .menu  {
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
 
 }
