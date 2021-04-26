@@ -1,0 +1,176 @@
+*{
+
+    box-sizing: border-box;
+    font-family: helvetica Neue;
+    font-weight: lighter;
+}
+
+.color{
+    margin: 0px;
+    padding: 0px;
+    position:fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #2d2d2d;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 150px;
+    list-style: none;
+    display: block;
+}
+
+li{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #323232;
+    overflow: hidden;
+}
+
+p.menu-barra{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    padding: 16px;
+    padding-right: 25px;
+    float: right;
+    color: white;
+    opacity: 0.6;
+    font-size: 1.2em;
+    
+}
+
+.barra{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    height: 50px;
+    width: 0px;
+    background-color: #aaa;
+    opacity: 0.1;
+    -webkit-transition: width .1s;
+    -o-transition: width .1s;
+}
+
+li:hover div.barra{
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+}
+
+/*  -------------------------------------------------------------------------------------------  */
+
+
+.padre{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+   background: #fff;
+    padding: 0px;
+}
+    .header{
+        background: #fff;
+        border: 2px solid #000;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        margin: 10px 10px 10px 260px;
+        padding: auto;
+    }
+        .logo{
+            background: #fff;
+            flex: 1 1 auto;
+            height: 70px;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+        .imagen-logo{
+            background: #fff;
+            flex: 1 1 auto;
+            height: 70px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+    .section{
+        background: #fff;
+        border: 2px solid #000;
+        margin: 10px 10px 10px 260px;
+        padding: 100px;
+        
+    }
+        .listas{
+            background: #fff;
+            display: flex;
+            flex-flow: row nowrap;
+            margin: 10px;
+            padding: 10px;
+        }
+            .centro{
+                background: #fff;
+                width: 220px;
+                margin: auto;
+                display: flex;
+                flex-flow: row nowrap;
+                
+                padding: 10px;
+            }
+        
+        .button{
+            background: #ff8303;
+            display: flex;
+            width: auto;
+                margin: 0px 490px;
+                
+                padding: 10px;
+        }
+
+
+.menu{
+    position: absolute;
+    display: flex;
+    background: crimson;
+}
+
+
+
+
+
+
+
+/*  -------------------------------------------------------------------------------------------  */
+
+
+@media (max-width: 992px) {
+
+    
+    .desaparece{
+        display: none;
+    }
+
+
+
+    
+
+    .section{
+        margin: 10px 10px 10px 60px;
+    }
+
+    .header{
+        margin: 10px 10px 10px 60px;
+    }
+
+    .centro{
+        margin: 0px 130px;
+    }
+
+    .button{
+        margin: 0px 210px;
+    }
+}
